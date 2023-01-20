@@ -5,10 +5,13 @@
     /* border: 1px solid rgb(4, 4, 4); */
     cursor: default;
 }
+section {
+    background-color: rgb(128, 74, 179);
+}
 .container{
     margin: 0 auto;
     width: 1300px;
-    padding-top: 20px;
+    padding: 40px 0px;
 }
 h1{
     font-size: 40px;
@@ -22,10 +25,34 @@ h1{
     font-weight: 600;
     color: black; 
 }
+.small-text {
+    color: white;
+}
 ol{
     padding-top: 15px;
 }
 li{
     padding: 10px;
     font-size: 25px;
+}
+.bord {
+    border: 2px solid;
+}
+.line {
+    text-decoration: underline;
+}
+.padd{
+    padding-left: 30px;
+}
+.round{
+    background-color: rgb(255, 251, 251);
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 100px;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid white;
 }

@@ -6,41 +6,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <!-- CSS link  -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- js link  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+    <!-- jquery link  -->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    
+    
+    
+    <!-- Javascript started here -->
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({ left: '600px' });
+            });
+
+
+            $(function () {
+                $("#gfg").slider({ animate: "fast" });
+            });
+
+
+
+
+        });  
+    </script>
+
+    <!-- JavaScript ended here  -->
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="center">Module (JQuery Basic, Effects & Advanced) – 5</h1>
-        <h1 class="center">Questions and Answers </h1>
-        <ol type="1">
-            <li class="big-text">What is jQuery?</li>
-        </ol>
-        <ul class="small-text">
-            <li>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with
-                first-class functions.</li>
-            <li>While it is most well-known as the scripting language for Web pages, many non-browser environments also
-                use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</li>
-            <li>JavaScript features such as variables, strings, numbers, and arrays.</li>
-        </ul>
 
-        <ol type="1" start="2">
-            <li class="big-text"> How to Apply CSS Using jQuery?</li>
-        </ol>
-        <ul class="small-text">
-            <li>css() method in jQuery is used to change the style property of the selected element.</li>
-            <li>For example:</li>
-            <h2>$(“p”).css(“background-color”,“black”);</h2>
-        </ul>
+    <!-- Section started here  -->
+    <section>
 
-        <ol type="1" start="3">
-            <li class="big-text">How to Add Class and Remove Class in Jquery ,
-                JQuery Animation?</li>
-        </ol>
-        <ul class="small-text">
-            <li></li>
-        </ul>
-    </div>
+        <!-- Container for content  -->
+        <div class="container">
+
+
+            <h1 class="center small-text">Module (JQuery Basic, Effects & Advanced) – 5</h1>
+            <h1 class="center small-text">Questions and Answers </h1>
+
+            <!-- First question -->
+            <ol type="1">
+                <li class="big-text">What is jQuery?</li>
+            </ol>
+
+            <!-- Answer started here  -->
+            <ul class="small-text">
+                <li>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with
+                    first-class functions.</li>
+                <li>While it is most well-known as the scripting language for Web pages, many non-browser environments
+                    also
+                    use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</li>
+                <li>JavaScript features such as variables, strings, numbers, and arrays.</li>
+            </ul>
+            <!-- Answer ended here  -->
+
+
+
+            <!-- Second question -->
+
+            <ol type="1" start="2">
+                <li class="big-text"> How to Apply CSS Using jQuery?</li>
+            </ol>
+
+            <!-- Answer started here  -->
+
+            <ul class="small-text">
+                <li>css() method in jQuery is used to change the style property of the selected element.</li>
+                <li class="line">For example:</li>
+                <div class="padd">
+                    <h2>$(“p”).css(“background-color”,“black”);</h2>
+                </div>
+            </ul>
+            <!-- Answer ended here  -->
+
+
+            <!-- Third question -->
+
+            <ol type="1" start="3">
+                <li class="big-text">How to Add Class and Remove Class in Jquery?</li>
+            </ol>
+
+            <!-- Answer started here  -->
+
+            <ul class="small-text">
+                <li class="line">jQuery addClass() Method : For example</li>
+                <br>
+                <div class="padd">
+                    <h2>$('selector').addClass(class_name);</h2>
+                </div>
+                <br>
+                <br>
+                <li class="line">jQuery removeClass() Method : For example</li>
+                <br>
+                <div class="padd">
+                    <h2>$('selector').removeClass(class_name);</h2>
+                </div>
+            </ul>
+            <!-- Answer ended here  -->
+
+
+            <!-- Fourth question -->
+
+            <ol type="1" start="4">
+                <li class="big-text">JQuery animation?</li>
+            </ol>
+
+            <!-- Answer started here  -->
+
+            <ul class="small-text">
+                <br>
+                <button class="btn"> T A P Here </button>
+                <br>
+                <li>Animation example:</li>
+                <div class="round"></div>
+            </ul>
+            <br><br><br>
+            <!-- Answer ended here  -->
+
+
+            <!-- fifth question  -->
+
+            <ol type="1" start="5">
+                <li class="big-text">How to create slider with animation?</li>
+            </ol>
+
+            <!-- Answer started here  -->
+
+            <ul class="small-text">
+                <li>For example :</li>
+                <br>
+                <h2>jQuery UI | slider animate option</h2>
+                <br><br>
+                <div id="gfg"></div>
+            </ul>
+
+            <!-- Answer ended here  -->
+            
+        </div>
+    </section>
 </body>
 
 </html>
