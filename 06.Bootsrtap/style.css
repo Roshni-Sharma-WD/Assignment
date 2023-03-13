@@ -1,36 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid rgb(4, 4, 4); */
     cursor: default;
 }
-#section{
+#section {
     background-color: rgb(125, 147, 78);
     color: aliceblue; 
     padding: 1px;
 }
-.container{
+.container {
     margin: 0 auto;
     width: 1300px;
     padding-top: 20px;
 }
-h1{
+h1 {
     font-size: 40px;
     padding: 10px;
 }
-.center{
+.center {
     text-align: center;
 }
-.big-text{
+.big-text {
     font-size: 35px;
     font-weight: 600;
     color: black; 
 }
-ol{
+ol {
     padding-top: 15px;
 }
-li{
+li {
     padding: 10px;
     font-size: 25px;
+}
+.card {
+    width: 300px;
 }
